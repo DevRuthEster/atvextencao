@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CadModalidade.css">
+    <title>GPE - Cadastro Modalidade</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-sigla">GPE</div>
+        <div class="header-usuario">
+            <div>Nome</div>
+            <img class="foto" src="/img/foto.jpg" alt="">
+        </div>
+    </header>
+       
+    <section>
+        <div class="section-form-links">
+        <a href="http://127.0.0.1:5500/CadModalidade.html">Cadastro Modalidade</a>
+        <a href="http://127.0.0.1:5500/CadTurma.html">Cadastro Turma</a>
+        <a href="#">Consulta</a>
+    </div>
+        <form class="section-form" action="">
+            <h1>Modalidade</h1>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="section-form2">
+                <div class="section-form-sub">
+                    <p>Níveis</p>
+                    <label for="sub07">Sub 07</label>
+                    <input type="checkbox" id="sub07" name="sub07" value="sub07">
+                    <label for="sub09">Sub 09</label>
+                    <input type="checkbox" id="sub09" name="sub09" value="sub09">
+                    <label for="sub11">Sub 11</label>
+                    <input type="checkbox" id="sub11" name="sub11" value="sub11">
+                    <label for="sub13">Sub 13</label>
+                    <input type="checkbox" id="sub13" name="sub13" value="sub13">
+                    <label for="sub15">Sub 15</label>
+                    <input type="checkbox" id="sub15" name="sub15" value="sub15">
+                    <label for="sub17">Sub 17</label>
+                    <input type="checkbox" id="sub17" name="sub17" value="sub17">
+                   
+                </div>
+                <div>
+                    <label for="genero">Gênero<label>
+                            <select name="genero" id="genero" required>
+                                <option selected disable value="">Selecione</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="misto">Misto</option>
+                            </select>
+                </div>
+            </div>
+            <button type="submit"> Cadastrar</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
