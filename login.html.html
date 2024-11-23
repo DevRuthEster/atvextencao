@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=visibility_off" />
+</head>
+<body>
+    <!-- Barra de navegação com o logo -->
+    <nav class="barra-navegacao">
+        <div class="logo">
+            <img src="midia/LOGO.png" alt="Logo GPE">
+        </div>
+    </nav>
+
+    <!-- Caixa de Login -->
+    <div class="caixa-login">
+        <!-- Cabeçalho (container completo com fundo verde) -->
+        <div class="cabecalho">
+            <span>GPE</span>
+        </div>
+        <!-- Formulário -->
+        <form>
+            <!-- Campo Usuário -->
+            <div class="campo-input">
+                <label for="usuario" class="campo-label">usuário</label>
+                <input type="text" id="usuario" class="campo-texto">
+            </div>
+
+            <!-- Campo Senha -->
+            <div class="campo-input">
+                <label for="senha" class="campo-label">senha</label>
+                <div class="campo-senha">
+                    <input type="password" id="senha" class="campo-texto">
+                    <span class="material-symbols-outlined mostrar-senha">visibility_off</span>
+                </div>
+            </div>
+
+            <!-- Esqueceu a senha -->
+            <div class="esqueci-senha">
+                <a href="#">esqueceu sua senha?</a>
+            </div>
+
+            <!-- Botão Entrar -->
+            <button type="submit" class="botao">ENTRAR</button>
+        </form>
+    </div>
+</body>
+</html>

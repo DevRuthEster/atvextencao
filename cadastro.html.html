@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="navbar-superior">
+        <div class="logo">
+            <h1>GPE</h1>
+        </div>
+        <div class="usuario">
+            <span>NOME</span>
+            <img src="midia/Mask Group.png" alt="Avatar do usuário" class="avatar">
+        </div>
+    </header>
+
+    
+    <aside class="menu-lateral">
+        <nav>
+            <ul>
+                <li><span class="material-symbols-outlined">home</span> Home</li>
+                <li><span class="material-symbols-outlined">person</span> Matrícula</li>
+                <li><span class="material-symbols-outlined">search</span> Consulta</li>
+            </ul>
+        </nav>
+    </aside>
+
+    
+    <main class="conteudo">
+        <div class="abas">
+            <span class="aba ativa">ALUNO</span>
+            <span class="aba">PROFESSOR</span>
+        </div>
+
+        <div class="formulario-container">
+            
+            <div class="campo-imagem">
+                <img src="midia/Mask Group.png" alt="Foto do usuário" class="foto">
+            </div>
+
+            
+            <div class="formulario">
+                <form>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="nome">NOME</label>
+                            <input type="text" id="nome" placeholder="VARCHAR">
+                        </div>
+                        <div class="campo">
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf" placeholder="000.000.000-00">
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="rg">RG</label>
+                            <input type="text" id="rg" placeholder="CHAR">
+                        </div>
+                        <div class="campo">
+                            <label for="data-nascimento">DATA DE NASCIMENTO</label>
+                            <input type="text" id="data-nascimento" placeholder="DD/MM/AAAA">
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="genero">GÊNERO</label>
+                            <select id="genero">
+                                <option>SELECIONE</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="endereco">ENDEREÇO</label>
+                            <input type="text" id="endereco" placeholder="VARCHAR">
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="telefone">TELEFONE</label>
+                            <input type="text" id="telefone" placeholder="(00)00000-0000">
+                        </div>
+                        <div class="campo">
+                            <label for="cidade">CIDADE</label>
+                            <input type="text" id="cidade" placeholder="VARCHAR">
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="modalidade">MODALIDADE</label>
+                            <input type="text" id="modalidade" placeholder="VARCHAR">
+                        </div>
+                    </div>
+                    <div class="botao-container">
+                        <button type="submit" class="botao">CADASTRAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Superior -->
+    <header class="navbar-superior">
+        <div class="logo">
+            <h1>GPE</h1>
+        </div>
+        <div class="usuario">
+            <span>NOME</span>
+            <img src="midiai/Mask Group.png" alt="Avatar do usuário" class="avatar">
+        </div>
+    </header>
+
+    <!-- Menu Lateral -->
+    <aside class="menu-lateral">
+        <nav>
+            <ul>
+                <li><span class="material-symbols-outlined">home</span> Home</li>
+                <li><span class="material-symbols-outlined">person</span> Cadastro</li>
+                <li><span class="material-symbols-outlined">search</span> Consulta</li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main class="conteudo">
+        <div class="abas">
+            <span class="aba ativa">MATRÍCULA</span>
+        </div>
+
+        <div class="formulario-container">
+            <!-- Imagem do usuário -->
+            <div class="campo-imagem">
+                <img src="midiai/Mask Group.png" alt="Foto do usuário" class="foto">
+            </div>
+
+            <!-- Formulário -->
+            <div class="formulario">
+                <form>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="nome">NOME</label>
+                            <input type="text" id="nome" placeholder="JOÃO SILVA">
+                        </div>
+                        <div class="campo">
+                            <label for="cpf">CPF</label>
+                            <input type="text" id="cpf" placeholder="000.000.000-00">
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="modalidade">MODALIDADE</label>
+                            <input type="text" id="modalidade" placeholder="AAAAAAA">
+                        </div>
+                        <div class="campo">
+                            <label for="data-matricula">DATA DE MATRÍCULA</label>
+                            <input type="text" id="data-matricula" placeholder="DD/MM/AAAA">
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="nivel">NÍVEL</label>
+                            <select id="nivel">
+                                <option>SELECIONE</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="horarios">HORÁRIOS</label>
+                            <input type="text" id="horarios" placeholder="00:00 - 00:00">
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="campo">
+                            <label for="dias">DIAS</label>
+                            <input type="text" id="dias" placeholder="AAAAA-AAAAA - AAAAA-AAAAA">
+                        </div>
+                    </div>
+                    <div class="botao-container">
+                        <button type="submit" class="botao">MATRICULAR</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
